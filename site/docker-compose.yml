@@ -1,7 +1,7 @@
 services:
   web:
     build: .
-    image: boris-claude-ru:latest
+    # image: boris-claude-ru:latest
     container_name: boris-claude-ru
     restart: unless-stopped
     labels:
