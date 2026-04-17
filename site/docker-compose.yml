@@ -3,6 +3,25 @@ services:
     build: .
     image: boris-claude-ru:latest
     container_name: boris-claude-ru
-    ports:
-      - "3000:3000"
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.boris.rule=Host(`howborisusesclaudecode.ru`)"
+      - "traefik.http.routers.boris.entrypoints=https"
+      - "traefik.http.routers.boris.tls=true"
+      - "traefik.http.routers.boris.tls.certresolver=letsEncrypt"
+      - "traefik.http.routers.boris.middlewares=boris@docker"
+      - "traefik.http.services.boris-service.loadbalancer.server.port=3000"
+      - "traefik.docker.network=webproxy"    
+    expose:
+      - "3000"
+    networks:
+      - boris-net
+      - webproxy
+
+networks:
+  boris-net:
+    name: boris-net
+  webproxy:
+    external: true
+    name: webproxy
