@@ -1,0 +1,19 @@
+[     639ms] [LOG] 
+%c┌─────────────────────────────────────────────────────┐
+│                                                     │
+│  claude-cli $ checking if you're a real dev...      │
+│                                                     │
+│  ✓ Console open detected                            │
+│  ✓ Curiosity confirmed                              │
+│  ✓ Touch grass reminder scheduled                   │
+│                                                     │
+│  You found the easter egg!                          │
+│  Built by @CarolinaCherry with Claude Code.         │
+│                                                     │
+│  Time to build: 7 minutes                           │
+│  Times Claude said "I'll help you with that": 847   │
+│                                                     │
+│  github.com/carolinacherry                          │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+ color: #E07A41; font-family: monospace; font-size: 12px; @ https://howborisusesclaudecode.com/:5432

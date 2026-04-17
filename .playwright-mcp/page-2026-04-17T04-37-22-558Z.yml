@@ -1,0 +1,182 @@
+- generic [ref=e3]:
+  - link "← советы" [ref=e4] [cursor=pointer]:
+    - /url: /
+  - generic [ref=e5]:
+    - generic [ref=e11]: claude-cli — Клодономика
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - heading "Клодономика" [level=1] [ref=e14]
+        - paragraph [ref=e15]: Еженедельные коммиты от AI-агентов на публичном GitHub с момента релиза Claude Code 22 мая 2025 года
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Claude Code за неделю
+            - generic [ref=e20]: 2.72M
+            - generic [ref=e21]: WoW ▲ 5.7%
+          - generic [ref=e22]:
+            - generic [ref=e23]: За всё время
+            - generic [ref=e24]: 29.2M
+            - generic [ref=e25]: накопительно с мая 2025
+          - generic [ref=e26]:
+            - generic [ref=e27]: Доля Claude среди отслеживаемых
+            - generic [ref=e28]: 99.5%
+            - generic [ref=e29]: из 2.73M коммитов в неделю
+          - generic [ref=e30]:
+            - generic [ref=e31]: Все отслеживаемые агенты за неделю
+            - generic [ref=e32]: 2.73M
+            - generic [ref=e33]: WoW ▲ 5.7%
+          - generic [ref=e34]:
+            - generic [ref=e35]: Неделя по
+            - generic [ref=e36]: 12 апр
+            - generic [ref=e37]: 49 закрытых недель данных
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]: Claude Code — коммитов в неделю
+              - generic [ref=e42]: публичный GitHub, по дате коммиттера · терминальный CLI-агент
+            - generic [ref=e43]: 2025-05-05 → 2026-04-12
+          - generic [ref=e44]:
+            - img [ref=e46]:
+              - generic [ref=e47]: 2.24M
+              - generic [ref=e48]: 1.50M
+              - generic [ref=e49]: 748k
+            - generic:
+              - generic: 0 коммитов
+              - generic: —
+            - generic [ref=e55]:
+              - generic [ref=e56]: 5 мая
+              - generic [ref=e57]: 12 апр
+            - generic:
+              - img
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - generic [ref=e61]: CLI-конкуренты — коммитов в неделю
+              - generic [ref=e62]: "терминальные агенты как Claude Code: Copilot CLI, Codex CLI, Gemini CLI (отдельная шкала)"
+            - generic [ref=e63]: 2025-06-23 → 2026-04-12
+          - generic [ref=e64]:
+            - img [ref=e66]:
+              - generic [ref=e67]: 1.9k
+              - generic [ref=e68]: 1.3k
+              - generic [ref=e69]: "643"
+            - generic:
+              - generic: —
+              - generic: 0 коммитов
+              - generic: —
+            - generic [ref=e78]:
+              - generic [ref=e79]: 23 июн
+              - generic [ref=e80]: 12 апр
+            - generic:
+              - img
+            - generic:
+              - img
+            - generic:
+              - img
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]: Облачные / асинхронные конкуренты — коммитов в неделю
+              - generic [ref=e85]: "агенты, работающие как сервис, не в терминале: Copilot Coding Agent, Codex (ChatGPT)"
+            - generic [ref=e86]: 2025-05-19 → 2026-04-12
+          - generic [ref=e87]:
+            - img [ref=e89]:
+              - generic [ref=e90]: 8.5k
+              - generic [ref=e91]: 5.7k
+              - generic [ref=e92]: 2.8k
+            - generic:
+              - generic: —
+              - generic: 0 коммитов
+              - generic: —
+            - generic [ref=e99]:
+              - generic [ref=e100]: 19 мая
+              - generic [ref=e101]: 12 апр
+            - generic:
+              - img
+            - generic:
+              - img
+        - generic [ref=e102]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: Рейтинг агентов — неделя с 6 апр по 12 апр
+            - generic [ref=e106]: по количеству коммитов в неделю
+          - table [ref=e108]:
+            - rowgroup [ref=e109]:
+              - row "# Агент Тип Коммитов/нед Доля WoW" [ref=e110]:
+                - columnheader "#" [ref=e111]
+                - columnheader "Агент" [ref=e112]
+                - columnheader "Тип" [ref=e113]
+                - columnheader "Коммитов/нед" [ref=e114]
+                - columnheader "Доля" [ref=e115]
+                - columnheader "WoW" [ref=e116]
+            - rowgroup [ref=e117]:
+              - row "1 Claude Code CLI 2 720 382 99.5% ▲ 5.7%" [ref=e118]:
+                - cell "1" [ref=e119]
+                - cell "Claude Code" [ref=e120]:
+                  - generic [ref=e121]:
+                    - img [ref=e123]
+                    - generic [ref=e125]: Claude Code
+                - cell "CLI" [ref=e126]:
+                  - generic [ref=e127]: CLI
+                - cell "2 720 382" [ref=e128]
+                - cell "99.5%" [ref=e129]
+                - cell "▲ 5.7%" [ref=e130]
+              - row "2 Copilot Coding Agent Cloud 9 375 0.34% ▲ 3.0%" [ref=e131]:
+                - cell "2" [ref=e132]
+                - cell "Copilot Coding Agent" [ref=e133]:
+                  - generic [ref=e134]:
+                    - img [ref=e136]
+                    - generic [ref=e138]: Copilot Coding Agent
+                - cell "Cloud" [ref=e139]:
+                  - generic [ref=e140]: Cloud
+                - cell "9 375" [ref=e141]
+                - cell "0.34%" [ref=e142]
+                - cell "▲ 3.0%" [ref=e143]
+              - row "3 Gemini CLI CLI 1 961 0.07% ▲ 7.2%" [ref=e144]:
+                - cell "3" [ref=e145]
+                - cell "Gemini CLI" [ref=e146]:
+                  - generic [ref=e147]:
+                    - img [ref=e149]
+                    - generic [ref=e151]: Gemini CLI
+                - cell "CLI" [ref=e152]:
+                  - generic [ref=e153]: CLI
+                - cell "1 961" [ref=e154]
+                - cell "0.07%" [ref=e155]
+                - cell "▲ 7.2%" [ref=e156]
+              - row "4 Codex CLI CLI 1 289 0.05% ▼ -9.1%" [ref=e157]:
+                - cell "4" [ref=e158]
+                - cell "Codex CLI" [ref=e159]:
+                  - generic [ref=e160]:
+                    - img [ref=e162]
+                    - generic [ref=e164]: Codex CLI
+                - cell "CLI" [ref=e165]:
+                  - generic [ref=e166]: CLI
+                - cell "1 289" [ref=e167]
+                - cell "0.05%" [ref=e168]
+                - cell "▼ -9.1%" [ref=e169]
+              - row "5 Copilot CLI CLI 1 025 0.04% ▲ 27.0%" [ref=e170]:
+                - cell "5" [ref=e171]
+                - cell "Copilot CLI" [ref=e172]:
+                  - generic [ref=e173]:
+                    - img [ref=e175]
+                    - generic [ref=e177]: Copilot CLI
+                - cell "CLI" [ref=e178]:
+                  - generic [ref=e179]: CLI
+                - cell "1 025" [ref=e180]
+                - cell "0.04%" [ref=e181]
+                - cell "▲ 27.0%" [ref=e182]
+              - row "6 Codex (ChatGPT) Cloud 100 0.00% ▼ -21.3%" [ref=e183]:
+                - cell "6" [ref=e184]
+                - cell "Codex (ChatGPT)" [ref=e185]:
+                  - generic [ref=e186]:
+                    - img [ref=e188]
+                    - generic [ref=e190]: Codex (ChatGPT)
+                - cell "Cloud" [ref=e191]:
+                  - generic [ref=e192]: Cloud
+                - cell "100" [ref=e193]
+                - cell "0.00%" [ref=e194]
+                - cell "▼ -21.3%" [ref=e195]
+      - group [ref=e197]:
+        - generic "методология · источник данных — github search api" [ref=e198] [cursor=pointer]:
+          - img [ref=e199]
+          - text: методология · источник данных — github search api
+      - link "howborisusesclaudecode.com" [ref=e202] [cursor=pointer]:
+        - /url: https://howborisusesclaudecode.com

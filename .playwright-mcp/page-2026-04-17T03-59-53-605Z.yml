@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - link "← tips" [ref=e2] [cursor=pointer]:
+    - /url: /
+  - generic [ref=e3]:
+    - generic [ref=e9]: claude-cli — Claudeonomics
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "Claudeonomics" [level=1] [ref=e12]
+        - paragraph [ref=e13]: Weekly commits by AI coding agents on public GitHub, since Claude Code's GA launch on May 22, 2025
+      - generic [ref=e15]: loading data…
+      - link "howborisusesclaudecode.com" [ref=e17] [cursor=pointer]:
+        - /url: https://howborisusesclaudecode.com

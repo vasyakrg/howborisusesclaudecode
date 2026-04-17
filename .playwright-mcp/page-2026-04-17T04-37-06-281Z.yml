@@ -1,0 +1,114 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e10]: claude-cli — Как Борис использует Claude Code
+      - button "О сайте" [ref=e11] [cursor=pointer]
+      - link "Клодономика" [ref=e12] [cursor=pointer]:
+        - /url: /claudeonomics
+    - generic [ref=e13]:
+      - button "Часть 1 13" [ref=e14] [cursor=pointer]:
+        - text: Часть 1
+        - generic [ref=e15]: "13"
+      - button "Часть 2 10" [ref=e16] [cursor=pointer]:
+        - text: Часть 2
+        - generic [ref=e17]: "10"
+      - button "Часть 3 12" [ref=e18] [cursor=pointer]:
+        - text: Часть 3
+        - generic [ref=e19]: "12"
+      - button "Часть 4 5" [ref=e20] [cursor=pointer]:
+        - text: Часть 4
+        - generic [ref=e21]: "5"
+      - button "Часть 5 2" [ref=e22] [cursor=pointer]:
+        - text: Часть 5
+        - generic [ref=e23]: "2"
+      - button "Часть 6 3" [ref=e24] [cursor=pointer]:
+        - text: Часть 6
+        - generic [ref=e25]: "3"
+      - button "Часть 7 8" [ref=e26] [cursor=pointer]:
+        - text: Часть 7
+        - generic [ref=e27]: "8"
+      - button "Часть 8 4" [ref=e28] [cursor=pointer]:
+        - text: Часть 8
+        - generic [ref=e29]: "4"
+      - button "Часть 9 15" [ref=e30] [cursor=pointer]:
+        - text: Часть 9
+        - generic [ref=e31]: "15"
+      - button "Часть 10 7 Новое" [ref=e32] [cursor=pointer]:
+        - text: Часть 10
+        - generic [ref=e33]:
+          - generic [ref=e34]: "7"
+          - generic [ref=e35]: Новое
+      - button "Установить Skill" [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+        - text: Установить Skill
+      - button "Как пользоваться Skills" [ref=e40] [cursor=pointer]:
+        - img [ref=e41]
+        - text: Как пользоваться Skills
+    - generic [ref=e45]:
+      - button "~ intro" [ref=e46] [cursor=pointer]:
+        - generic [ref=e47]: ~
+        - generic [ref=e48]: intro
+      - button "1 parallel" [ref=e49] [cursor=pointer]:
+        - generic [ref=e50]: "1"
+        - generic [ref=e51]: parallel
+      - button "2 web+mobile" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: "2"
+        - generic [ref=e54]: web+mobile
+      - button "3 opus" [ref=e55] [cursor=pointer]:
+        - generic [ref=e56]: "3"
+        - generic [ref=e57]: opus
+      - button "4 CLAUDE.md" [ref=e58] [cursor=pointer]:
+        - generic [ref=e59]: "4"
+        - generic [ref=e60]: CLAUDE.md
+      - button "5 @.claude" [ref=e61] [cursor=pointer]:
+        - generic [ref=e62]: "5"
+        - generic [ref=e63]: "@.claude"
+      - button "6 plan" [ref=e64] [cursor=pointer]:
+        - generic [ref=e65]: "6"
+        - generic [ref=e66]: plan
+      - button "7 slash" [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]: "7"
+        - generic [ref=e69]: slash
+      - button "8 subagents" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: "8"
+        - generic [ref=e72]: subagents
+      - button "9 hooks" [ref=e73] [cursor=pointer]:
+        - generic [ref=e74]: "9"
+        - generic [ref=e75]: hooks
+      - button "10 perms" [ref=e76] [cursor=pointer]:
+        - generic [ref=e77]: "10"
+        - generic [ref=e78]: perms
+      - button "11 tools" [ref=e79] [cursor=pointer]:
+        - generic [ref=e80]: "11"
+        - generic [ref=e81]: tools
+      - button "12 long-run" [ref=e82] [cursor=pointer]:
+        - generic [ref=e83]: "12"
+        - generic [ref=e84]: long-run
+      - button "13 verify" [ref=e85] [cursor=pointer]:
+        - generic [ref=e86]: "13"
+        - generic [ref=e87]: verify
+    - generic [ref=e90]:
+      - heading "Как Boris Cherny использует Claude Code" [level=1] [ref=e91]
+      - paragraph [ref=e92]: Boris создал Claude Code в Anthropic. Когда его спросили, как он сам им пользуется, он поделился 13 практическими советами из повседневной работы. Его сетап «на удивление ванильный» — доказательство, что CC отлично работает из коробки.
+      - link "Тред @bcherny от 2 января 2026" [ref=e93] [cursor=pointer]:
+        - /url: https://x.com/bcherny/status/2007179832300581177
+        - img [ref=e94]
+        - text: Тред @bcherny от 2 января 2026
+      - generic [ref=e96]:
+        - text: Кликай по вкладкам выше, чтобы изучить каждый совет →
+        - generic [ref=e97]: или используй стрелки ← →
+    - generic [ref=e98]:
+      - generic [ref=e99]: claude-cli подключён
+      - generic [ref=e101]:
+        - text: opus-4.7 · размышляет
+        - generic [ref=e102]: ...
+    - generic [ref=e103]:
+      - text: По материалам
+      - link "треда @bcherny" [ref=e104] [cursor=pointer]:
+        - /url: https://x.com/bcherny/status/2007179832300581177
+      - generic [ref=e105]:
+        - text: Ctrl+C, Ctrl+V, Ctrl+Ship. Оригинал —
+        - link "@CarolinaCherry" [ref=e106] [cursor=pointer]:
+          - /url: https://github.com/carolinacherry
+        - text: . Русский порт — для сообщества.
+  - generic [ref=e108]: HowBorisUsesClaudeCode.com — русская версия

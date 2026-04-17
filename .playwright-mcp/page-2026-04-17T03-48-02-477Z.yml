@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e8]: claude-cli — How Boris Uses Claude Code
+      - button "About" [ref=e9] [cursor=pointer]
+      - link "Claudeonomics" [ref=e10] [cursor=pointer]:
+        - /url: /claudeonomics
+    - generic [ref=e11]:
+      - button "Part 1 13" [ref=e12] [cursor=pointer]:
+        - text: Part 1
+        - generic [ref=e13]: "13"
+      - button "Part 2 10" [ref=e14] [cursor=pointer]:
+        - text: Part 2
+        - generic [ref=e15]: "10"
+      - button "Part 3 12" [ref=e16] [cursor=pointer]:
+        - text: Part 3
+        - generic [ref=e17]: "12"
+      - button "Part 4 5" [ref=e18] [cursor=pointer]:
+        - text: Part 4
+        - generic [ref=e19]: "5"
+      - button "Part 5 2" [ref=e20] [cursor=pointer]:
+        - text: Part 5
+        - generic [ref=e21]: "2"
+      - button "Part 6 3" [ref=e22] [cursor=pointer]:
+        - text: Part 6
+        - generic [ref=e23]: "3"
+      - button "Part 7 8" [ref=e24] [cursor=pointer]:
+        - text: Part 7
+        - generic [ref=e25]: "8"
+      - button "Part 8 4" [ref=e26] [cursor=pointer]:
+        - text: Part 8
+        - generic [ref=e27]: "4"
+      - button "Part 9 15" [ref=e28] [cursor=pointer]:
+        - text: Part 9
+        - generic [ref=e29]: "15"
+      - button "Part 10 7 New" [ref=e30] [cursor=pointer]:
+        - text: Part 10
+        - generic [ref=e31]:
+          - generic [ref=e32]: "7"
+          - generic [ref=e33]: New
+      - button "Install Skill" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+        - text: Install Skill
+      - button "How To Use Skills" [ref=e39] [cursor=pointer]:
+        - img [ref=e40]
+        - text: How To Use Skills
+    - generic [ref=e44]:
+      - button "~ intro" [ref=e45] [cursor=pointer]:
+        - generic [ref=e46]: ~
+        - generic [ref=e47]: intro
+      - button "1 parallel" [ref=e48] [cursor=pointer]:
+        - generic [ref=e49]: "1"
+        - generic [ref=e50]: parallel
+      - button "2 web+mobile" [ref=e51] [cursor=pointer]:
+        - generic [ref=e52]: "2"
+        - generic [ref=e53]: web+mobile
+      - button "3 opus" [ref=e54] [cursor=pointer]:
+        - generic [ref=e55]: "3"
+        - generic [ref=e56]: opus
+      - button "4 CLAUDE.md" [ref=e57] [cursor=pointer]:
+        - generic [ref=e58]: "4"
+        - generic [ref=e59]: CLAUDE.md
+      - button "5 @.claude" [ref=e60] [cursor=pointer]:
+        - generic [ref=e61]: "5"
+        - generic [ref=e62]: "@.claude"
+      - button "6 plan" [ref=e63] [cursor=pointer]:
+        - generic [ref=e64]: "6"
+        - generic [ref=e65]: plan
+      - button "7 slash" [ref=e66] [cursor=pointer]:
+        - generic [ref=e67]: "7"
+        - generic [ref=e68]: slash
+      - button "8 subagents" [ref=e69] [cursor=pointer]:
+        - generic [ref=e70]: "8"
+        - generic [ref=e71]: subagents
+      - button "9 hooks" [ref=e72] [cursor=pointer]:
+        - generic [ref=e73]: "9"
+        - generic [ref=e74]: hooks
+      - button "10 perms" [ref=e75] [cursor=pointer]:
+        - generic [ref=e76]: "10"
+        - generic [ref=e77]: perms
+      - button "11 tools" [ref=e78] [cursor=pointer]:
+        - generic [ref=e79]: "11"
+        - generic [ref=e80]: tools
+      - button "12 long-run" [ref=e81] [cursor=pointer]:
+        - generic [ref=e82]: "12"
+        - generic [ref=e83]: long-run
+      - button "13 verify" [ref=e84] [cursor=pointer]:
+        - generic [ref=e85]: "13"
+        - generic [ref=e86]: verify
+    - generic [ref=e89]:
+      - heading "How Boris Cherny Uses Claude Code" [level=1] [ref=e90]
+      - paragraph [ref=e91]: Boris created Claude Code at Anthropic. When asked how he uses it, he shared 13 practical tips from his daily workflow. His setup is "surprisingly vanilla" — proof that CC works great out of the box.
+      - link "@bcherny's January 2, 2026 thread" [ref=e92] [cursor=pointer]:
+        - /url: https://x.com/bcherny/status/2007179832300581177
+        - img [ref=e93]
+        - text: "@bcherny's January 2, 2026 thread"
+      - generic [ref=e95]:
+        - text: Click the tabs above to explore each tip →
+        - generic [ref=e96]: or use ← → arrow keys
+    - generic [ref=e97]:
+      - generic [ref=e98]: claude-cli connected
+      - generic [ref=e100]:
+        - text: opus-4.7 · thinking
+        - generic [ref=e101]: ...
+    - generic [ref=e102]:
+      - text: Based on
+      - link "@bcherny's thread" [ref=e103] [cursor=pointer]:
+        - /url: https://x.com/bcherny/status/2007179832300581177
+      - generic [ref=e104]:
+        - text: Ctrl+C, Ctrl+V, Ctrl+Ship. Built by
+        - link "@CarolinaCherry" [ref=e105] [cursor=pointer]:
+          - /url: https://github.com/carolinacherry
+        - text: . You're welcome.
+  - generic [ref=e106]:
+    - link "visitor count" [ref=e107] [cursor=pointer]:
+      - /url: /stats
+      - img "visitor count" [ref=e108]
+    - generic [ref=e109]: HowBorisUsesClaudeCode.com
+    - link "☕ Buy me a coffee" [ref=e110] [cursor=pointer]:
+      - /url: https://buymeacoffee.com/danielan

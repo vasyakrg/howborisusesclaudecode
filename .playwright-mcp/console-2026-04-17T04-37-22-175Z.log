@@ -1,0 +1,3 @@
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Page not found: /api/claudeonomics) @ http://localhost:3000/api/claudeonomics:0
+[     165ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Page not found: /claudeonomics-data.json) @ http://localhost:3000/claudeonomics-data.json:0
+[     165ms] [WARNING] claudeonomics: using static fallback, HTTP 404 @ http://localhost:3000/claudeonomics.js:21

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_close",
+      "Bash(python3 *)",
+      "Bash(mkdir *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(docker build *)",
+      "Bash(docker run *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  %{size_download} bytes\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  %{size_download} bytes\\\\n\" http://localhost:3000/claudeonomics)",
+      "Bash(docker stop *)",
+      "mcp__plugin_playwright_playwright__browser_click"
+    ]
+  }
+}
