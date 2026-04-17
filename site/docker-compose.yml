@@ -10,7 +10,6 @@ services:
       - "traefik.http.routers.boris.entrypoints=https"
       - "traefik.http.routers.boris.tls=true"
       - "traefik.http.routers.boris.tls.certresolver=letsEncrypt"
-      - "traefik.http.routers.boris.middlewares=boris@docker"
       - "traefik.http.services.boris-service.loadbalancer.server.port=3000"
       - "traefik.docker.network=webproxy"    
     expose:
