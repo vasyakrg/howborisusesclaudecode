@@ -2,9 +2,9 @@
 
 Сайт с переводом и адаптацией 79 советов от создателя Claude Code — о том, как он использует инструмент ежедневно.
 
-Production: [howborisusesclaudecode.ru](https://howborisusesclaudecode.ru)
-Fork: [howborisusesclaudecode.com](https://howborisusesclaudecode.com)
-Update at: 17.04.2026
+- Production: [howborisusesclaudecode.ru](https://howborisusesclaudecode.ru)
+- Fork: [howborisusesclaudecode.com](https://howborisusesclaudecode.com)
+- Update at: 17.04.2026
 
 ## Стек
 
