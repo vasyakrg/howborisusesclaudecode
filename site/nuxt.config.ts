@@ -20,6 +20,13 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap' }
+      ],
+      script: [
+        {
+          src: 'https://umami.bildme.ru/script.js',
+          defer: true,
+          'data-website-id': '077e77d0-ad24-46ce-8b38-e6636fec08b8'
+        }
       ]
     }
   },
