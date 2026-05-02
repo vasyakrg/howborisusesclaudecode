@@ -9,8 +9,9 @@
     { "id": 7,  "partIdx": 6,  "type": "part",    "label": "Часть 7",  "count": 8 },
     { "id": 10, "partIdx": 7,  "type": "part",    "label": "Часть 8",  "count": 4 },
     { "id": 11, "partIdx": 8,  "type": "part",    "label": "Часть 9",  "count": 15 },
-    { "id": 12, "partIdx": 9,  "type": "part",    "label": "Часть 10", "count": 7, "badge": "Новое" },
-    { "id": 8,  "partIdx": 10, "type": "install", "label": "Ставим Skill", "icon": "download" },
-    { "id": 9,  "partIdx": 11, "type": "install", "label": "Юзаем Skills", "icon": "layers" }
+    { "id": 12, "partIdx": 9,  "type": "part",    "label": "Часть 10", "count": 7 },
+    { "id": 13, "partIdx": 10, "type": "part",    "label": "Часть 11", "count": 8, "badge": "Новое" },
+    { "id": 8,  "partIdx": 11, "type": "install", "label": "Ставим Skill", "icon": "download" },
+    { "id": 9,  "partIdx": 12, "type": "install", "label": "Юзаем Skills", "icon": "layers" }
   ]
 }

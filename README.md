@@ -4,7 +4,7 @@
 
 - Production: [howborisusesclaudecode.ru](https://howborisusesclaudecode.ru)
 - Fork: [howborisusesclaudecode.com](https://howborisusesclaudecode.com)
-- Update at: 17.04.2026
+- Update at: 02.05.2026
 
 ## Стек
 

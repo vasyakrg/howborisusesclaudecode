@@ -15,7 +15,14 @@
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  %{size_download} bytes\\\\n\" http://localhost:3000/)",
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  %{size_download} bytes\\\\n\" http://localhost:3000/claudeonomics)",
       "Bash(docker stop *)",
-      "mcp__plugin_playwright_playwright__browser_click"
+      "mcp__plugin_playwright_playwright__browser_click",
+      "Bash(rtk ls *)",
+      "WebFetch(domain:howborisusesclaudecode.com)",
+      "Bash(rtk wc *)",
+      "Bash(rtk read *)",
+      "Bash(rtk grep *)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('data/content.ru.json'\\)\\)\")",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('data/volumes.json'\\)\\)\")"
     ]
   }
 }
