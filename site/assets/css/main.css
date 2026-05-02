@@ -641,7 +641,7 @@
         /* Volume Selector */
         .volume-selector {
             display: flex;
-            justify-content: center;
+            justify-content: safe center;
             gap: 6px;
             padding: 12px 16px;
             background: var(--bg-secondary);
