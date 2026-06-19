@@ -22,7 +22,8 @@
       "Bash(rtk read *)",
       "Bash(rtk grep *)",
       "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('data/content.ru.json'\\)\\)\")",
-      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('data/volumes.json'\\)\\)\")"
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('data/volumes.json'\\)\\)\")",
+      "Bash(rtk git *)"
     ]
   }
 }
