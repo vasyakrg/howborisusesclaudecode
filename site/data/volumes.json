@@ -124,35 +124,40 @@
       "partIdx": 17,
       "type": "part",
       "label": "Часть 18",
-      "count": 4,
-      "badge": "Новое"
+      "count": 4
     },
     {
       "id": 21,
       "partIdx": 18,
       "type": "part",
       "label": "Часть 19",
-      "count": 4,
-      "badge": "Новое"
+      "count": 4
     },
     {
       "id": 22,
       "partIdx": 19,
       "type": "part",
       "label": "Часть 20",
+      "count": 3
+    },
+    {
+      "id": 23,
+      "partIdx": 20,
+      "type": "part",
+      "label": "Часть 21",
       "count": 3,
       "badge": "Новое"
     },
     {
       "id": 8,
-      "partIdx": 20,
+      "partIdx": 21,
       "type": "install",
       "label": "Ставим Skill",
       "icon": "download"
     },
     {
       "id": 9,
-      "partIdx": 21,
+      "partIdx": 22,
       "type": "install",
       "label": "Юзаем Skills",
       "icon": "layers"

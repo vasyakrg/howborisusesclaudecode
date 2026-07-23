@@ -1,14 +1,16 @@
 # syntax=docker/dockerfile:1.7
 
-FROM node:20-alpine AS build
+FROM node:22-alpine AS build
 WORKDIR /app
-RUN corepack enable
-COPY package.json ./
-RUN npm install --no-audit --no-fund
+# npm 10.8.x (в node:20-alpine) роняет arborist на дереве Nuxt: "Cannot read
+# properties of null (reading 'edgesOut')". Обновляем npm и ставим детерминированно.
+RUN npm install -g npm@11
+COPY package.json package-lock.json ./
+RUN npm ci --no-audit --no-fund
 COPY . .
 RUN npm run build
 
-FROM node:20-alpine AS runtime
+FROM node:22-alpine AS runtime
 WORKDIR /app
 ENV NODE_ENV=production \
     NITRO_HOST=0.0.0.0 \
